@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+            <div class="container">
+            <div class="left-panel">
+                <div class="logo"><img src="ONE.jpg"></div>
+                <textarea type="text" id="input-text" placeholder="Ingrese el texto aquí" style="text-transform:lowercase;" autocapitalize="none" ></textarea>
+                <p class="note"> Solo letras minúsculas, sin caracteres especiales y sin acentos</p>
+                <div class="buttons">
+                    <button id="encrypt-btn">Encriptar</button>
+                    <button id="decrypt-btn">Desencriptar</button>
+                
+                </div>
+            </div>
+            <div class="right-panel">
+                <img class="imagen" src="panel-right-image.jpg" alt="foto de candado digital">
+                <p id="result">Ningún mensaje fue encontrado</p>
+                <button id="copyBtn" style="display: none;">Copiar Resultado</button>
+                <button id="clean" type="button" onclick="limpiar()">Reiniciar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <img class= "imagen2" src="blob.jpg" alt="Logo de Oracle Next Education">
+            <p class="Apoyo" > Proyecto impulsado por Oracle Next Education</p>
+            <p class="aboutme">Postulante Dab JPD</p>
+        </div>
+        
+    </footer>
+</body>
+</html>
